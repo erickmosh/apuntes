@@ -1,0 +1,9 @@
+# Archivo: saludo.py
+
+def saludar(nombre):
+    """Función que saluda al usuario."""
+    print("¡Hola, " + nombre + "! Bienvenido/a.")
+
+if __name__ == '__main__':
+    nombre = input("Por favor, introduce tu nombre: ")
+    saludar(nombre)
